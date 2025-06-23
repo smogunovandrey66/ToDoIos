@@ -6,8 +6,13 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		833CF1562E07CDC8003B27F7 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 833CF1552E07CDB6003B27F7 /* README.md */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXFileReference section */
 		8306D33A2DFEA69400D7667F /* ToDoIos.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ToDoIos.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		833CF1552E07CDB6003B27F7 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
@@ -32,6 +37,7 @@
 		8306D3312DFEA69400D7667F = {
 			isa = PBXGroup;
 			children = (
+				833CF1552E07CDB6003B27F7 /* README.md */,
 				8306D33C2DFEA69400D7667F /* ToDoIos */,
 				8306D33B2DFEA69400D7667F /* Products */,
 			);
@@ -109,6 +115,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				833CF1562E07CDC8003B27F7 /* README.md in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -267,7 +274,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = org.pname.ToDoIos;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
-				SWIFT_VERSION = 5.0;
+				SWIFT_VERSION = 6.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
@@ -295,7 +302,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = org.pname.ToDoIos;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
-				SWIFT_VERSION = 5.0;
+				SWIFT_VERSION = 6.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
